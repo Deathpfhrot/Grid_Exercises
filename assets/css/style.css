@@ -1,0 +1,66 @@
+*{
+    /* margin: 0;
+    padding: 0;
+    box-sizing: border-box; */
+    scroll-behavior: smooth;
+}
+
+/* 
+article{
+    background-color: skyblue;
+    display: grid;
+    justify-content: center;
+}
+
+.gridContainer{
+    display: grid;
+    gap: 20px;
+    height: 100vh; */
+        /*anodnung auf der x-achse*/
+    /* grid-template-columns: 300px auto 100px*/
+    /* grid-template-columns: 1fr 2fr 1fr; */
+    /* grid-template-columns: 33% 33% 33%; */
+    /* das hier ist ein ParentElement */
+
+    /*grid-template: repeat(3, 200px);*/
+    
+    /*repeat(wie oft, die gleiche größe) - Shorthand*/
+    /* px // em/rem // % // fr=fraction(gleich großer teil*/
+
+    /* anordnung auf dier y-axchse*/
+    /* grid-template-rows: repeat(3, 1fr); */
+
+    /* grid-template-areas: 
+    "AAAAA AAAAA AAAAA"
+    "BBBBB BBBBB BBBBB"
+    "CCCCC CCCCC CCCCC";
+}
+
+.box-1{
+    grid-area: "AAAAA";
+}
+
+.box-2{
+    grid-area: "BBBBB";
+}
+
+.box-3{
+    grid-area: "CCCCC";
+} */
+
+.gridContainer {
+    display: grid;
+    width: 90%;
+    margin: 5% auto;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+img{
+    width: 100%;
+    /*die kind elementen passen sich ihrem elter element an*/
+}
+
+.gallery{
+    align-items: stretch;
+}
