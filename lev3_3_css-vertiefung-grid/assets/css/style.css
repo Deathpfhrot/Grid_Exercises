@@ -1,0 +1,168 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    font-family: 'Cormorant Garamond', serif;
+    color: #333;
+    background-color: rgb(233, 233, 224);
+}
+
+/* Schrift: 'Cormorant Garamond'
+Farben: rgb(233, 233, 224), #333 */
+
+/* 
+ */
+
+/* 
+
+
+/* 
+Best knives */
+
+body{
+    width: 90%;
+    margin: 0 auto;
+    height: 100vh;
+}
+
+
+/*First Section*/
+
+.first-section{
+    display: flex;
+    flex-direction: column;
+}
+
+h1{
+    font-weight: Bold 700 italic;
+    text-align: center;
+    margin: 2rem 2rem 2rem 0;
+    font-size: 3rem;
+}
+
+.borderArticle{
+    display: flex;
+    justify-content: space-around;
+    border-top: 5px double;
+    border-bottom: 5px double;
+    padding: 5px 0;
+    font-size: 0.7rem;
+}
+
+
+/*main*/
+
+.second-section{
+    margin: 2rem 0;
+}
+
+.news-letter-article{
+    margin-right: 1rem;
+}
+
+img:first-child{
+    width: 500px;
+    height: 600px;
+}
+
+.second-section{
+    display: flex;
+}
+
+.second-section article:nth-of-type(1) h2{
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 2rem;
+}
+
+.second-section article:first-child div{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    /* grid-template-rows: repeat(3, 1fr); */
+    grid-template-rows: 8rem 15rem 1fr 1fr;
+    gap: 20px;
+    height: 60vh;
+}
+
+.aside1{
+    grid-column: 1 / 2;
+    grid-row: 1 / 2;
+}
+
+.aside2{
+    grid-column: 2 / 3;
+    grid-row: 1 / 2;
+}
+
+.aside3{
+    grid-column: 1 / 2;
+    grid-row: 2 / 3;
+}
+
+.aside4{
+    grid-column: 2 / 3;
+    grid-row: 2 / 3;
+}
+
+.aside5{
+    grid-column: 1 / 2;
+    grid-row: 3 / 4;
+}
+
+.aside6{
+    grid-column: 2 / 3;
+    grid-row: 3 / 4;
+}
+
+.figure img{
+    grid-column: 3 / 5;
+    grid-row: 1 / 4;
+}
+
+
+
+/*Aside sections sponsers*/
+
+.second-section article:nth-of-type(2){
+    text-align: center;
+}
+
+.second-section article:nth-of-type(2) h2{
+    font-size: 20px;
+    margin: 10px 0;
+}
+
+.second-section article:nth-of-type(2) aside{
+    border: 5px double;
+    padding: 10px;
+    width: 220px;
+    height: 220px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 1rem;
+}
+
+img:last-child{
+    width: 180px;
+    height: 180px;
+    filter: grayscale(20);
+}
+
+.second-section article:nth-of-type(2) aside span{
+    color: gray;
+    border-bottom: 2px solid rgb(155, 154, 154);
+}
+
+.second-section article:nth-of-type(2) aside:nth-of-type(1){
+    font-size: 2.5rem;
+}
+
+
+
+
+
